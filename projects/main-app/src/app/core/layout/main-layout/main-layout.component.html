@@ -1,10 +1,24 @@
 <mat-toolbar color="primary">
-    Main App 
-    <span class="spacer"></span>
-    <button mat-flat-button color="primary" routerLink="home">Home</button>
-    <button mat-flat-button color="primary" routerLink="admin">Admin</button>
+  Main App
+  <span class="spacer"></span>
+  <button
+    mat-flat-button
+    color="primary"
+    routerLink="home"
+    routerLinkActive="active"
+  >
+    Home
+  </button>
+  <button
+    mat-flat-button
+    color="primary"
+    routerLink="admin"
+    routerLinkActive="active"
+  >
+    Admin
+  </button>
 </mat-toolbar>
 
 <main>
-    <router-outlet></router-outlet>
+  <router-outlet></router-outlet>
 </main>
